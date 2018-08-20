@@ -22,6 +22,7 @@ public class Main {
         Employeer employeer6 = new Employeer("Elba");
         Employeer employeer7 = new Employeer("Monica");
         Employeer employeer8 = new Employeer("Estefani");
+        employeer1.setSection("President");
         
         System.out.println(employeer1.getData());
         System.out.println(employeer2.getData());
