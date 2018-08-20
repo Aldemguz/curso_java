@@ -16,9 +16,13 @@ public class Main {
     public static void main(String[] args) {
         Employeer employeer1 = new Employeer("Aldemaro");
         Employeer employeer2 = new Employeer("Irina");
+        Employeer employeer3 = new Employeer("Gladymar");
+        Employeer employeer4 = new Employeer("Edicson");
         
         System.out.println(employeer1.getData());
         System.out.println(employeer2.getData());
+        System.out.println(employeer3.getData());
+        System.out.println(employeer4.getData());
         
         System.out.println(Employeer.getNextId());
     }
